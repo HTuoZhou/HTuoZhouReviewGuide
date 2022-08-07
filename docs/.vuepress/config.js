@@ -53,7 +53,8 @@ module.exports = {
                     { text: 'SpringCloudAlibaba', link: '/micro-service/spring-cloud-alibaba/' }
                 ]
             },
-            { text: '系统设计', link: '/system-design/' }
+            { text: '系统设计', link: '/system-design/' },
+            { text: '开源推荐', link: '/open-recommend/' }
         ],
         sidebar: {
             '/dataStruct-algorithm/dataStruct/': [''],
@@ -64,7 +65,8 @@ module.exports = {
             '/micro-service/spring-boot/': [''],
             '/micro-service/spring-cloud/': [''],
             '/micro-service/spring-cloud-alibaba/': [''],
-            '/system-design/': ['']
+            '/system-design/': [''],
+            '/open-recommend/': ['']
         },
         lastUpdated: '上一次更新时间',
         editLinks: true,
