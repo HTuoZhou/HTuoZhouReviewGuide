@@ -1,0 +1,30 @@
+{
+  "name": "htuozhoureviewguide",
+  "version": "1.0.0",
+  "description": "HTuoZhouReviewGuide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HTuoZhou/HTuoZhouReviewGuide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HTuoZhou/HTuoZhouReviewGuide/issues"
+  },
+  "homepage": "https://github.com/HTuoZhou/HTuoZhouReviewGuide#readme",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-nprogress": "^1.9.7",
+    "moment": "^2.29.4",
+    "vuepress": "^1.9.7"
+  }
+}
